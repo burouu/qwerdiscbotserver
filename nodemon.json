@@ -1,0 +1,5 @@
+{
+    "watch": ["slash-commands/.js"],
+    "ignore": ["node_modules/*"],
+    "exec": "node index.js"
+  }
