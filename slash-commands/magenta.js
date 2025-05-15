@@ -19,7 +19,8 @@ const exampleEmbed2 = new EmbedBuilder()
 module.exports = {  
     data:new SlashCommandBuilder()
         .setName("magenta")
-        .setDescription("send members profile"),
+        .setDescription("send members profile")
+		.setDefaultMemberPermissions(0),
 
     async execute(interaction) {
         await interaction.reply({ embeds: [exampleEmbed2] }) 

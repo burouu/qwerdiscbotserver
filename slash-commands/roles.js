@@ -17,7 +17,8 @@ const Embed1 = new EmbedBuilder()
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("roles")
-        .setDescription("roles"),
+        .setDescription("roles")
+        .setDefaultMemberPermissions(0),
 
     async execute(interaction) {
         await interaction.reply({ embeds: [ Embed1 ] })

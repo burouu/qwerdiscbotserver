@@ -167,20 +167,21 @@ const Embed9 = new EmbedBuilder()
 const Embed10 = new EmbedBuilder()
     .setColor('#05B5CC')
     .setImage('https://cdn.discordapp.com/attachments/1283990642183245875/1346333460603736075/qwer2.png?ex=67c7ce3e&is=67c67cbe&hm=f0971b7adb8f6b92fe46dfba8f34658c38ec972be27aef835865a2be12eeb0e0&')
-    .setTitle('Youth Pledge')
+    .setTitle('Youth Promise')
     .setDescription(`2nd Single\n\n**Release Date: February 28th, 2025**
 
-**1 - [Youth Pledge](https://www.youtube.com/watch?v=CGvqj7bzCVY)**
+**1 - [Youth Promise](https://www.youtube.com/watch?v=CGvqj7bzCVY)**
 
     `)
     .addFields(
-        { name: 'Song Link', value: '[Youtube](https://www.youtube.com/watch?v=CGvqj7bzCVY)'}
+        { name: 'Song Link', value: '[Spotify](https://open.spotify.com/intl-pt/album/1PZCGYkcJDwUN3WjseqKN1)\n[Apple Music](https://music.apple.com/ph/album/youth-promise-single/1812022892)\n[Youtube Music](https://music.youtube.com/playlist?list=OLAK5uy_meg4oaS3f_O7xL3PSToQIDo2JBNqoIPns)\n[Deezer](https://www.deezer.com/br/album/750971111)'}
     )
     
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("discography")
-        .setDescription("discography"),
+        .setDescription("discography")
+        .setDefaultMemberPermissions(0),
 
     async execute(interaction) {
         await interaction.reply({ embeds: [Embed, Embed2, Embed3, Embed4, Embed5, Embed6, Embed7, Embed8, Embed9, Embed10] })

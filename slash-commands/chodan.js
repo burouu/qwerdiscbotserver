@@ -59,7 +59,8 @@ const Embed1 = new EmbedBuilder()
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("members")
-        .setDescription("send members profile"),
+        .setDescription("send members profile")
+		.setDefaultMemberPermissions(0),
 
     async execute(interaction) {
         await interaction.reply({ embeds: [Embed1, Embed2, Embed3, Embed4] })
