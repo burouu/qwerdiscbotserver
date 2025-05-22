@@ -9,7 +9,7 @@ const Embed1 = new EmbedBuilder()
         { name: 'Birthday', value: 'November 1, 1998' },
         { name: 'Representative Letter', value: 'Q'},
         { name: 'Position:', value: 'Leader, Drummer, Sub-Vocalist' },
-        { name: 'Facts', value: '• Chodan was the first member to be added.\n• She received her education at Sungshin Women’s University as a drum major.\n• Chodan has her own floor to herself.\n• Chodan has loved football since she was young.\n• Her favorite football club is Manchester United.' },
+        { name: 'Facts', value: '• Chodan was the first member to be added.\n• She received her education at Sungshin Women’s University as a drum major.\n• Chodan and Siyeon live on the same floor.\n• Chodan has loved football since she was young.\n• Her favorite football club is Manchester United.' },
 	)
 	.addFields({ name: 'Links', value: 'Instagram: [chodan._.](https://www.instagram.com/choda._.n/)\nTiktok: [chodan__](https://www.tiktok.com/@chodan__)\nTwitch: [chodan_](https://twitch.tv/chodan_)\nYoutube: [chodan_](https://www.youtube.com/@chodan_)', inline: true })
     .setImage('https://kprofiles.com/wp-content/uploads/2023/08/CHODAN-534x800.jpg')
@@ -25,7 +25,7 @@ const Embed1 = new EmbedBuilder()
 		{ name: 'Position', value: 'Bassist' },
 		{ name: 'Facts', value: '• Magenta was the second member to be added.\n• She was born in Pohang, North Gyeongsang, South Korea.\n• Her favorite color is magenta, which is why she chose it as her stage name.\n• Her nickname is Genta, and Chodan calls her it a lot.\n• Magenta and Hina live on the same floor.\n• Her fandom name is Hotteok.'},
 	)
-	.addFields({ name: 'Links', value: 'Instagram: [magenta_6262](https://www.instagram.com/magenta_6262/)\nTiktok: [magenta6262](https://www.tiktok.com/@magenta6262)\nTwitch: [magenta62](https://www.twitch.tv/magenta62)\nYoutube: [magenta62](https://www.youtube.com/@magenta62)', inline: true })
+	.addFields({ name: 'Links', value: 'Instagram: [magenta_6262](https://www.instagram.com/magenta_6262/)\nTiktok: [magenta6262](https://www.tiktok.com/@magenta6262)\nTwitch: [magenta62](https://www.twitch.tv/magenta62)\nYoutube: [마젠타](https://youtube.com/channel/UCADa1FgR3ZsEMG8S5jQQdgQ?si=uwM8o49qSvvXsbxU)', inline: true })
 	.setImage('https://kprofiles.com/wp-content/uploads/2023/08/MAGENTA-534x800.jpg')
 
     const Embed3 = new EmbedBuilder()
@@ -39,7 +39,7 @@ const Embed1 = new EmbedBuilder()
 		{ name: 'Position', value: 'Guitarist, Keyboardist, Maknae' },
 		{ name: 'Facts', value: '• Hina was the third member to be added.\n• Her name on social media is Nyangnyongnyeongnyang.\n• Her nickname is Nyangnyongie.\n• Hina and Magenta live on the same floor.\n• Her TikTok account has over 4 million followers.'},
 	)
-	.addFields({ name: 'Links', value: 'Instagram: [i_am_young22](https://www.instagram.com/i_am_young22/) / [joinnutyellow](https://www.instagram.com/joinnutyellow/)\nX: [hapycb](https://x.com/hapycb) \nTiktok: [i_am_young22](https://www.tiktok.com/@i_am_young22)\nTwitch: [h1nadesu](https://www.twitch.tv/h1nadesu)\nYoutube: [hapycb](https://www.youtube.com/@hapycb) / [hinachan9100](https://www.youtube.com/@hinachan9100)', inline: true })
+	.addFields({ name: 'Links', value: 'Instagram: [i_am_young22](https://www.instagram.com/i_am_young22/) / [hapyhinahehe](https://www.instagram.com/hapyhinahehe?igsh=bzVkaTEwN25ndGZz)\nX: [hapycb](https://x.com/hapycb) \nTiktok: [i_am_young22](https://www.tiktok.com/@i_am_young22)\nTwitch: [h1nadesu](https://www.twitch.tv/h1nadesu)\nYoutube: [hapycb](https://www.youtube.com/@hapycb) / [hinachan9100](https://www.youtube.com/@hinachan9100)', inline: true })
 	.setImage('https://kprofiles.com/wp-content/uploads/2023/08/HINA-534x800.jpg')
 
     const Embed4 = new EmbedBuilder()
