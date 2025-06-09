@@ -33,6 +33,28 @@ const Embed2 = new EmbedBuilder()
     .setFooter(
         { text: 'Discord JP Version'}
     )
+
+const Embed3 = new EmbedBuilder()
+    .setColor('#E6C369')
+    .setImage('https://i.imgur.com/0xMcIDE.png')
+    .setTitle(`In million noises, I'll be your harmony`)
+    .setDescription(`3rd Mini Album\n\n\**Release Date: June 9th, 2025**
+        
+**1 - [Dear](https://www.youtube.com/watch?v=pifz9JH1Re8)**
+**2 - [Be Happy](https://www.youtube.com/watch?v=PRH8JkIe0Ho&pp=ygUTUVdFUiBCRSBIQVBQWSBUT1BJQw%3D%3D)**
+**3 - [#QWER](https://www.youtube.com/watch?v=8-XjAXrS0bs&pp=ygUQUVdFUiAjcXdlciBUT1BJQw%3D%3D)**
+**4 - [OVERDRIVE](https://www.youtube.com/watch?v=kdPfMUAzmSo)**
+**5 - [D-DAY](https://www.youtube.com/watch?v=YCaTtV9zu6A)**
+**6 - [Yours Sincerely](https://www.youtube.com/watch?v=-Fz2vfp4BdY)**
+
+
+    `)
+    .addFields(
+        { name: 'Song Links', value: '[Spotify](https://open.spotify.com/album/1kOSueM1uqixinJjvk6ivV)\n[Apple Music](https://music.apple.com/album/3rd-mini-album-in-a-million-noises-ill-be-your-harmony-ep/1818035338)\n[Youtube Music](https://music.youtube.com/playlist?list=OLAK5uy_krl81fyKPrWjPK8mPszx7J3xhOZeezyFI)\n[Deezer](https://www.deezer.com/br/album/764920781)' }
+    )
+    .setFooter(
+        { text: `In million noises, I'll be your harmony`}
+    )
     
 module.exports = {
     data: new SlashCommandBuilder()
@@ -41,6 +63,6 @@ module.exports = {
         .setDefaultMemberPermissions(0),
 
     async execute(interaction) {
-        await interaction.reply({ embeds: [Embed, Embed2] })
+        await interaction.reply({ embeds: [Embed, Embed2, Embed3] })
     }
 }
