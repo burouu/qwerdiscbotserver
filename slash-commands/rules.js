@@ -12,7 +12,8 @@ const exampleEmbed = new EmbedBuilder()
         { name: '6. No Offensive or Inappropriate Usernames', value:'Usernames must be appropriate and non-offensive. Violators will be asked to change their names or may be removed.' },
         { name: '7. Use English in Main Channels', value:'The primary language of this server is English. Please use English in all main channels unless otherwise specified.' },
         { name: '8. No Impersonation', value:'Do not impersonate other members, staff, or public figures. This will result in an immediate ban.' },
-        { name: '9. Do not beg.', value: 'Do not ask others to buy you things, e.g. Discord Nitro. This includes DMing server members.'}
+        { name: '9. Do not beg.', value: 'Do not ask others to buy you things, e.g. Discord Nitro. This includes DMing server members.'},
+        { name: '10. No Punishment Evasion', value: 'It is forbidden to create or use an alternative account to evade any punishment, whether a timeout or a ban. Violation of this rule will result in a permanent ban on all associated accounts.'}
     )
     .setFooter(
         { text: 'Follow the rules to keep the community a good place for everyone.'}
@@ -21,7 +22,7 @@ const exampleEmbed = new EmbedBuilder()
 module.exports = {  
     data:new SlashCommandBuilder()
         .setName("rules")
-        .setDescription("send members profile")
+        .setDescription("rules")
         .setDefaultMemberPermissions(0),
 
     async execute(interaction) {
